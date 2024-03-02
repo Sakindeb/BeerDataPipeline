@@ -19,7 +19,7 @@ The data is found from an API documented here.
 API(https://punkapi.com/documentation/v2) 
 
 ## Relationship Diagram from Data Modelling
-<img src="Screenshot 2024-02-28 at 20.09.32.png">
+<img src="images/Screenshot 2024-02-28 at 20.09.32.png">
 
 ## Extraction
 The data is extracted by making a get request to the API endpoint and saving the result. 
@@ -33,7 +33,7 @@ The pipeline then loads the data to BigQuery. A datawarehouse for easy analysis 
 
 ## Reporting
 A brief report is created using looker studio with the figures we have for the different beers.
-<img src="report.png">
+<img src="images/report.png">
 
 ## Contributing
 
